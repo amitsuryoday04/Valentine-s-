@@ -1,4 +1,4 @@
-const const yesBtn = document.getElementById("yesBtn");
+const yesBtn = document.getElementById("yesBtn");
 const noBtn = document.getElementById("noBtn");
 const result = document.getElementById("result");
 const music = document.getElementById("bgMusic");

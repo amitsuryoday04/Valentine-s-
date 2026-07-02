@@ -1,1 +1,65 @@
-body{background:pink}.photo{width:220px}#noBtn{position:absolute}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    background:#ffb6c1;
+    font-family:Arial,sans-serif;
+    overflow:hidden;
+}
+
+.container{
+    width:90%;
+    max-width:400px;
+    background:#fff;
+    padding:25px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,.2);
+}
+
+.photo{
+    width:220px;
+    height:280px;
+    object-fit:cover;
+    border-radius:15px;
+    margin-bottom:20px;
+}
+
+h1{
+    font-size:36px;
+    color:#e91e63;
+    margin-bottom:20px;
+}
+
+button{
+    padding:12px 25px;
+    border:none;
+    border-radius:30px;
+    font-size:18px;
+    cursor:pointer;
+    margin:10px;
+}
+
+#yesBtn{
+    background:#ff4081;
+    color:#fff;
+}
+
+#noBtn{
+    background:#555;
+    color:#fff;
+    position:absolute;
+}
+
+#result{
+    margin-top:20px;
+    font-size:22px;
+    color:#e91e63;
+}
